@@ -43,7 +43,7 @@ export default {
             // 清空点标记数组
             this.markers = [];
 
-            console.dir(this.cafes);
+            console.dir('this is cafeMap.vue',this.cafes);
 
             // 自定义点标记图标
             var image = ROAST_CONFIG.APP_URL + '/storage/img/coffee-marker.png';

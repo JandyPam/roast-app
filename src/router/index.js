@@ -19,6 +19,11 @@ const routes = [
         name: 'cafes',
         component: () => import('./../pages/cafes.vue')
     },
+    {
+        path: '/cafe',
+        name: 'cafe',
+        component: () => import('./../pages/cafe.vue')
+    }
     // {
     //     path: '/cafes',
     //     name: 'cafes',

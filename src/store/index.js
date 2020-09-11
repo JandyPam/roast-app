@@ -6,13 +6,15 @@ require('es6-promise').polyfill();
 
 import Vue from 'vue';
 import Vuex from 'vuex';
-import { cafes } from './modules/cafes.js'
+import { cafes } from './modules/cafes.js';
+import { brewMethods } from './modules/brewMethods.js';
 
 Vue.use(Vuex);
 
 const store = new Vuex.Store({
     modules: {
-        cafes
+        cafes,
+        brewMethods
     }
 });
 
