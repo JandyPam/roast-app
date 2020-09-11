@@ -1,0 +1,32 @@
+{
+  "name": "roster",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "axios": "^0.20.0",
+    "file-loader": "^6.1.0",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "vue": "^2.6.12",
+    "vue-amap": "^0.5.10",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^4.44.1",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "devDependencies": {
+    "css-loader": "^4.3.0",
+    "es6-promise": "^4.2.8",
+    "vue-router": "^3.4.3",
+    "vuex": "^3.5.1",
+    "webpack-cli": "^3.3.12"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "webpack-dev-server --config webpack.config.js",
+    "build": "webpack --config webpack.config.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
